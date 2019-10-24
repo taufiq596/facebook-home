@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Facebook</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="main.js"></script>
+	
+</head>
+<body>
+	
+	<nav class="top">
+		<div class="logo">
+			<img src="facebook.png">	
+		</div><div class="login">
+			<table>
+			<tbody>
+				<tr class="t-row">
+					<td class="t-data">
+						<label for="email">Email or Phone</label>
+					</td>
+					<td class="t-data">
+						<label for="password">Password</label>
+					</td>
+				</tr>
+				<tr class="t-row td-box">
+					<td>
+						<input type="email" name="email">
+					</td>
+						<td>
+						<input type="password" name="password">
+					</td>
+					<td>
+						<button>Log In</button>
+					</td>
+				</tr>
+				<tr class="t-row">
+					<td>
+						<label for="space feild"></label>
+					</td>
+					<td>
+						<label for="forgot account"  class="forgot"><a href="https://www.facebook.com/recover/initiate?lwv=301&ars=royal_blue_bar">Forgotten account?</a></label>
+					</td>
+				</tr>
+			</tbody>
+
+		</table>
+		</div>
+	</nav>
+	<section class="wrapper">
+	<header class="main">
+		<section class="first">
+			<div class="heading">
+				<h3>Facebook helps you connect and share with the<br> people in your life.</h3>
+			</div>
+			<div class="fb-social">
+				<img src="fb-social.png">
+			</div>
+				<!--/div><div class="content">
+					<div>
+						<img src="text1.png">
+					</div>	
+				</div><div class="content">
+					<div>
+						<span class="up">See photos and updates</span>
+						<span> from friends in News Feed.</span>
+					</div>
+				</div>
+			</div>
+			<div>
+				<div class="content">
+					<div>
+						<img src="text2.png">
+					</div>
+				</div><div class="content">
+					<div>
+						<span class="up">Share what's new</span>
+						<span>in your life on your Timeline</span>
+					</div>
+				</div>
+			</div>
+			<div>
+				<div class="content">
+					<div>
+						<img src="text3.png">
+					</div>
+				</div><div class="content">
+					<div>
+						<span class="up">Find more </span>
+						<span> of what you're looking for with Facebook Search.</span>
+					</div>	
+				</div> -->
+		</section><section class="second">
+			<div class="sign-up">
+				<h2>Create an account</h2>
+				<p> It's quick and easy.</p>
+			</div>
+			<div class="txt">
+				<span id="firstName"></span>
+				<input  type="text" placeholder="First name">
+				<input  type="text" placeholder="Surname">
+				<span id="surName"></span>
+			</div>
+			<div class="txt">
+				<span id="mEmail"></span>
+				<input class="name" type="email" placeholder="Mobile number or email address">
+			</div>
+			<div class="txt">
+				<span id="nwPass"></span>
+				<input class="name" type="password" placeholder="New password">
+			</div>
+			<div class="bday">
+				<h4>Birthday</h4>
+					<select area-label="Day" name="Birth-Day" title="Day">
+						<option value="0">Day</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+						<option value="7">7</option>
+						<option value="8">8</option>
+						<option value="9">9</option>
+						<option value="10">10</option>
+						<option value="11">11</option>
+						<option value="12">12</option>
+						<option value="13">13</option>
+						<option value="14" selected="1">14</option>
+						<option value="15">15</option>
+						<option value="16">16</option>
+						<option value="17">17</option>
+						<option value="18">18</option>
+						<option value="19">19</option>
+						<option value="20">20</option>
+						<option value="21">21</option>
+						<option value="22">22</option>
+						<option value="23">23</option>
+						<option value="24">24</option>
+						<option value="25">25</option>
+						<option value="26">26</option>
+						<option value="27">27</option>
+						<option value="28">28</option>
+						<option value="29">29</option>
+						<option value="30">30</option>
+						<option value="31">31</option>
+					</select>
+			</div><div class="bday">				
+					<select area-label="Month" name="Birthday-month" title="Month">
+						<option value="0">Month</option>
+						<option value="1">Jan</option>
+						<option value="2">Feb</option>
+						<option value="3">Mar</option>
+						<option value="4">Apr</option>
+						<option value="5">May</option>
+						<option value="6">Jun</option>
+						<option value="7">Jul</option>
+						<option value="8" selected="1">Aug</option>
+						<option value="9">Sep</option>
+						<option value="10">Oct</option>
+						<option value="11">Nov</option>
+						<option value="12">Dec</option>
+					</select>
+				</div><div class="bday">
+				<select area-label="Year" name="Birth-Year" title="Year">
+					<option value="0">Year</option>
+					<option value="1">2019</option>
+					<option value="2">2018</option>
+					<option value="3">2017</option>
+					<option value="4">2016</option>
+					<option value="5">2015</option>
+					<option value="6">2014</option>
+					<option value="7">2013</option>
+					<option value="8">2012</option>
+					<option value="9">2011</option>
+					<option value="10">2010</option>
+					<option value="11">2009</option>
+					<option value="12">2008</option>
+					<option value="13">2007</option>
+					<option value="14">2006</option>
+					<option value="15">2005</option>
+					<option value="16">2004</option>
+					<option value="17">2003</option>
+					<option value="18">2002</option>
+					<option value="19">2001</option>
+					<option value="10">2000</option>
+					<option value="11">1999</option>
+					<option value="12">1998</option>
+					<option value="13">1997</option>
+					<option value="14">1996</option>
+					<option value="15">1995</option>
+					<option value="16" selected="1">1994</option>
+					<option value="17">1993</option>
+					<option value="18">1992</option>
+					<option value="19">1991</option>
+					<option value="10">1990</option>
+					<option value="11">1989</option>
+					<option value="12">1988</option>
+					<option value="13">1987</option>
+					<option value="14">1986</option>
+					<option value="15">1985</option>
+					<option value="16">1984</option>
+					<option value="17">1983</option>
+					<option value="18">1982</option>
+					<option value="19">1981</option>
+					<option value="10">1980</option>
+					<option value="11">1979</option>
+					<option value="12">1978</option>
+					<option value="13">1977</option>
+					<option value="14">1976</option>
+					<option value="15">1975</option>
+					<option value="16">1974</option>
+					<option value="17">1973</option>
+					<option value="18">1972</option>
+					<option value="19">1971</option>
+					<option value="15">1970</option>
+					<option value="16">1969</option>
+					<option value="17">1968</option>
+					<option value="18">1967</option>
+					<option value="19">1966</option>
+					<option value="10">1965</option>
+					<option value="11">1964</option>
+					<option value="12">1963</option>
+					<option value="13">1962</option>
+					<option value="14">1961</option>
+					<option value="15">1960</option>
+					<option value="16">1959</option>
+					<option value="17">1958</option>
+					<option value="18">1957</option>
+					<option value="19">1956</option>
+					<option value="19">1955</option>
+				</select>
+			</div>
+			<div class="gender">
+				<h4>Gender</h4>
+				<span>
+					<input type="radio" name="sex" value="1">
+					<label>Femail</label>
+				</span>
+				<span>
+					<input type="radio" name="sex" value="2">
+					<label>Mail</label>
+				</span>
+				<span>
+					<input type="radio" name="sex" value="3">
+					<label>Custom</label>
+				</span>
+			</div>
+			<div class="terms">
+				<p>By clicking Sign Up, you agree to our<a href=""> Terms, Data Policy</a> and<a href=""> Cookies Policy.</a> You may receive SMS Notifications from us and can opt out any time.</p>
+			</div>
+			<button>Sign Up</button>
+			<p><a href="/pages/create/?ref_type=registration_form">Create a Page</a> for a celebrity, band or business.</p>
+
+		</section>
+		
+	</header>
+</section>
+</body>
+</html>
